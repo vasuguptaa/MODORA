@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "setup-firebase": "node setup-firebase.js"
   },
   "dependencies": {
     "@types/node": "^24.1.0",

@@ -19,14 +19,21 @@ This application uses Firebase for:
 - **Firestore Database** - Store user profiles and posts
 - **Real-time Updates** - Live data synchronization
 
-### Firebase Configuration
+### Firebase Setup
 
-The app requires Firebase configuration. You'll need to:
+The app requires Firebase configuration. You have two options:
 
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-2. Enable Authentication (Email/Password)
-3. Create a Firestore database
-4. Set up environment variables (see Environment Variables section below)
+**Quick Setup (Recommended):**
+```bash
+npm run setup-firebase
+```
+
+**Manual Setup:**
+1. Follow the detailed guide in `FIREBASE_SETUP.md`
+2. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+3. Enable Authentication (Email/Password)
+4. Create a Firestore database
+5. Set up environment variables (see Environment Variables section below)
 
 ## Environment Variables
 
@@ -50,7 +57,7 @@ VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
 
 - Node.js (v16 or higher)
 - npm or yarn
-- Firebase project (already configured)
+- Firebase project (see Firebase Setup section below)
 
 ### Installation
 
@@ -65,12 +72,23 @@ cd MODORA
 npm install
 ```
 
-3. Start the development server:
+3. Set up Firebase (choose one option):
+
+**Option A: Interactive Setup (Recommended)**
+```bash
+npm run setup-firebase
+```
+
+**Option B: Manual Setup**
+- Follow the guide in `FIREBASE_SETUP.md`
+- Create a `.env` file with your Firebase configuration
+
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+5. Open your browser and navigate to `http://localhost:5173`
 
 ### Building for Production
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AlertTriangle, RefreshCw, WifiOff } from 'lucide-react';
+import { RefreshCw, WifiOff } from 'lucide-react';
 
 interface FirebaseErrorFallbackProps {
   error?: string;

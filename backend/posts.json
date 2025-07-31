@@ -1,0 +1,277 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "userId": "demo-user-id",
+      "username": "DemoUser",
+      "title": "Finding Balance in a Digital World",
+      "content": "I've been struggling with finding the right balance between my online and offline life. Sometimes I feel like I'm missing out on real connections while being constantly connected to social media. How do others manage this?",
+      "tags": ["work", "mental-health", "social-pressure"],
+      "lenses": ["therapist", "philosophical", "sociological"],
+      "interpretations": [
+        {
+          "id": "1",
+          "lens": "therapist",
+          "content": "This struggle reflects a common modern dilemma. Consider setting specific boundaries - perhaps designate 'digital-free' hours or days. The anxiety you're feeling suggests your values are calling for more authentic connections.",
+          "createdAt": "2024-01-15T10:30:00Z"
+        },
+        {
+          "id": "2",
+          "lens": "philosophical",
+          "content": "This touches on the ancient philosophical question of presence vs. representation. Are we living our lives or merely documenting them? The digital realm offers connection but at the cost of immediate, embodied experience.",
+          "createdAt": "2024-01-15T10:35:00Z"
+        },
+        {
+          "id": "3",
+          "lens": "sociological",
+          "content": "You're experiencing what sociologists call 'digital dualism' - the false separation between online and offline worlds. In reality, digital interactions are just as 'real' as face-to-face ones, but they serve different social functions.",
+          "createdAt": "2024-01-15T10:40:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "1",
+          "postId": "1",
+          "userId": "user2",
+          "username": "MindfulMom",
+          "content": "I've found that setting specific times for social media helps a lot. I check it twice a day for 30 minutes max.",
+          "parentId": null,
+          "replies": [],
+          "upvotes": 5,
+          "downvotes": 0,
+          "reactions": [
+            {
+              "id": "1",
+              "userId": "user3",
+              "type": "supportive",
+              "emoji": "🤗"
+            }
+          ],
+          "toneBadges": ["supportive"],
+          "createdAt": "2024-01-15T11:00:00Z",
+          "isPinned": false
+        }
+      ],
+      "createdAt": "2024-01-15T10:00:00Z",
+      "upvotes": 12,
+      "downvotes": 2,
+      "isAnonymous": false
+    },
+    {
+      "id": "2",
+      "userId": "demo-user-id",
+      "username": "Anonymous",
+      "title": "The Weight of Parental Expectations",
+      "content": "My parents have always had very specific expectations for my career and life choices. While I understand they want what's best for me, I feel like I'm living their dream instead of my own. Has anyone else dealt with this?",
+      "tags": ["parenting", "identity", "growth"],
+      "lenses": ["therapist", "cultural", "philosophical"],
+      "interpretations": [
+        {
+          "id": "4",
+          "lens": "therapist",
+          "content": "This is a common struggle in family dynamics. It's important to recognize that you can honor your parents' love while making your own choices. Consider having an open conversation about your feelings and aspirations.",
+          "createdAt": "2024-01-16T09:00:00Z"
+        },
+        {
+          "id": "5",
+          "lens": "cultural",
+          "content": "In many cultures, parental expectations carry significant weight. This tension between individual desires and family obligations is a universal human experience that has been explored in literature and philosophy for centuries.",
+          "createdAt": "2024-01-16T09:05:00Z"
+        },
+        {
+          "id": "6",
+          "lens": "philosophical",
+          "content": "This raises questions about authenticity and autonomy. Are we truly free if we're living according to others' expectations? Perhaps the path to self-actualization lies in finding a way to honor both your parents' wisdom and your own inner voice.",
+          "createdAt": "2024-01-16T09:10:00Z"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-01-16T08:30:00Z",
+      "upvotes": 8,
+      "downvotes": 1,
+      "isAnonymous": true
+    },
+    {
+      "id": "3",
+      "userId": "user3",
+      "username": "WorkLifeBalance",
+      "title": "Burning Out at 25",
+      "content": "I'm only 25 and already feeling completely burned out from work. I work 60+ hours a week and feel like I have no life outside of my job. My friends are getting married, traveling, and I'm just stuck in this cycle. Is this normal?",
+      "tags": ["work", "mental-health", "growth"],
+      "lenses": ["therapist", "sociological", "philosophical"],
+      "interpretations": [
+        {
+          "id": "7",
+          "lens": "therapist",
+          "content": "Burnout at 25 is unfortunately becoming more common. This level of work intensity isn't sustainable. Consider setting boundaries, taking regular breaks, and exploring what truly brings you joy outside of work.",
+          "createdAt": "2024-01-17T14:20:00Z"
+        },
+        {
+          "id": "8",
+          "lens": "sociological",
+          "content": "You're experiencing what sociologists call 'hustle culture' - the glorification of overwork. This is a systemic issue affecting young professionals globally, particularly in competitive industries.",
+          "createdAt": "2024-01-17T14:25:00Z"
+        },
+        {
+          "id": "9",
+          "lens": "philosophical",
+          "content": "This raises questions about the meaning of work and life. Are we working to live or living to work? The ancient Greeks valued leisure and contemplation as much as productive labor.",
+          "createdAt": "2024-01-17T14:30:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "2",
+          "postId": "3",
+          "userId": "user4",
+          "username": "FormerBurnout",
+          "content": "I was in the same boat at 26. Quit my job, took a 3-month break, and found something that actually respects work-life balance. Best decision ever.",
+          "parentId": null,
+          "replies": [],
+          "upvotes": 15,
+          "downvotes": 0,
+          "reactions": [
+            {
+              "id": "2",
+              "userId": "user5",
+              "type": "insightful",
+              "emoji": "💡"
+            }
+          ],
+          "toneBadges": ["insightful"],
+          "createdAt": "2024-01-17T15:00:00Z",
+          "isPinned": false
+        }
+      ],
+      "createdAt": "2024-01-17T14:00:00Z",
+      "upvotes": 25,
+      "downvotes": 3,
+      "isAnonymous": false
+    },
+    {
+      "id": "4",
+      "userId": "user6",
+      "username": "Anonymous",
+      "title": "Questioning My Faith",
+      "content": "I've been questioning my religious beliefs lately. I grew up in a very religious household, but as I've gotten older, I've started to have doubts. I feel guilty about this and don't know how to talk to my family about it.",
+      "tags": ["religion", "identity", "growth"],
+      "lenses": ["spiritual", "cultural", "therapist"],
+      "interpretations": [
+        {
+          "id": "10",
+          "lens": "spiritual",
+          "content": "Questioning faith is often part of spiritual growth. Many religious traditions encourage seeking and questioning as paths to deeper understanding. This may be a period of spiritual transformation rather than loss.",
+          "createdAt": "2024-01-18T11:15:00Z"
+        },
+        {
+          "id": "11",
+          "lens": "cultural",
+          "content": "Religious identity is deeply intertwined with cultural and family identity. Your questioning reflects a broader cultural shift where individuals are seeking more personal, authentic spiritual experiences.",
+          "createdAt": "2024-01-18T11:20:00Z"
+        },
+        {
+          "id": "12",
+          "lens": "therapist",
+          "content": "The guilt you're feeling is common when questioning deeply held beliefs. Remember that it's okay to have doubts and to evolve in your beliefs. Consider finding a supportive community or counselor to process these feelings.",
+          "createdAt": "2024-01-18T11:25:00Z"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-01-18T11:00:00Z",
+      "upvotes": 18,
+      "downvotes": 2,
+      "isAnonymous": true
+    },
+    {
+      "id": "5",
+      "userId": "user7",
+      "username": "RelationshipSeeker",
+      "title": "Dating in the Digital Age",
+      "content": "I've been trying online dating for the past year and it's been exhausting. So many conversations that go nowhere, ghosting, and people who seem completely different in person. Am I the only one struggling with this?",
+      "tags": ["relationships", "social-pressure", "identity"],
+      "lenses": ["sociological", "therapist", "cultural"],
+      "interpretations": [
+        {
+          "id": "13",
+          "lens": "sociological",
+          "content": "You're experiencing the paradox of choice in modern dating. With so many options, people often struggle to commit, leading to superficial interactions and ghosting behavior.",
+          "createdAt": "2024-01-19T16:45:00Z"
+        },
+        {
+          "id": "14",
+          "lens": "therapist",
+          "content": "This is a very common experience. Consider taking breaks from dating apps, focusing on activities you enjoy, and being more selective about who you invest time in.",
+          "createdAt": "2024-01-19T16:50:00Z"
+        },
+        {
+          "id": "15",
+          "lens": "cultural",
+          "content": "Digital dating has fundamentally changed how we form relationships. The disconnect between online personas and real personalities is a modern phenomenon that previous generations didn't face.",
+          "createdAt": "2024-01-19T16:55:00Z"
+        }
+      ],
+      "comments": [
+        {
+          "id": "3",
+          "postId": "5",
+          "userId": "user8",
+          "username": "DatingVeteran",
+          "content": "I met my partner through a hobby group instead of dating apps. Sometimes the old-fashioned way works better!",
+          "parentId": null,
+          "replies": [],
+          "upvotes": 8,
+          "downvotes": 0,
+          "reactions": [
+            {
+              "id": "3",
+              "userId": "user9",
+              "type": "supportive",
+              "emoji": "❤️"
+            }
+          ],
+          "toneBadges": ["supportive"],
+          "createdAt": "2024-01-19T17:30:00Z",
+          "isPinned": false
+        }
+      ],
+      "createdAt": "2024-01-19T16:30:00Z",
+      "upvotes": 22,
+      "downvotes": 1,
+      "isAnonymous": false
+    },
+    {
+      "id": "6",
+      "userId": "user10",
+      "username": "Anonymous",
+      "title": "Grieving a Lost Friendship",
+      "content": "My best friend of 10 years suddenly cut me off without explanation. It's been 6 months and I still think about it every day. I feel like I'm grieving a death, but no one understands because 'it's just a friendship.'",
+      "tags": ["loss", "relationships", "mental-health"],
+      "lenses": ["therapist", "philosophical", "spiritual"],
+      "interpretations": [
+        {
+          "id": "16",
+          "lens": "therapist",
+          "content": "The loss of a close friendship can be as painful as losing a romantic relationship. Your grief is valid. Consider allowing yourself to mourn this loss and seek support from other friends or a counselor.",
+          "createdAt": "2024-01-20T09:30:00Z"
+        },
+        {
+          "id": "17",
+          "lens": "philosophical",
+          "content": "Friendship is one of the highest forms of human connection. The ancient Greeks considered friendship essential to a good life. Your grief reflects the depth of the bond you shared.",
+          "createdAt": "2024-01-20T09:35:00Z"
+        },
+        {
+          "id": "18",
+          "lens": "spiritual",
+          "content": "Sometimes relationships end to make room for new growth. This painful experience may be leading you toward deeper self-understanding and new connections that align with who you're becoming.",
+          "createdAt": "2024-01-20T09:40:00Z"
+        }
+      ],
+      "comments": [],
+      "createdAt": "2024-01-20T09:00:00Z",
+      "upvotes": 31,
+      "downvotes": 0,
+      "isAnonymous": true
+    }
+  ]
+} 

@@ -6,7 +6,7 @@ export const testFirebaseConnection = async () => {
     console.log('Testing Firebase connection...');
     
     // Test Firestore connection
-    const testQuery = await getDocs(collection(db, 'users'));
+    await getDocs(collection(db, 'users'));
     console.log('✅ Firestore connection successful');
     
     // Test Auth connection

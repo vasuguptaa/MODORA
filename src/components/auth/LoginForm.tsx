@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../hooks/useAuth';
-import { Eye, EyeOff, Mail, Lock, AlertCircle } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, AlertCircle, Loader2 } from 'lucide-react';
 
 interface LoginFormProps {
   onToggleMode: () => void;
@@ -19,8 +19,27 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode }) => {
     setIsLoading(true);
     setError('');
     
+    // Basic validation
+    if (!email.trim()) {
+      setError('Please enter your email address.');
+      setIsLoading(false);
+      return;
+    }
+    
+    if (!password.trim()) {
+      setError('Please enter your password.');
+      setIsLoading(false);
+      return;
+    }
+    
+    if (!email.includes('@')) {
+      setError('Please enter a valid email address.');
+      setIsLoading(false);
+      return;
+    }
+    
     try {
-      await login(email, password);
+      await login(email.trim(), password);
     } catch (error: unknown) {
       console.error('Login failed:', error);
       const errorMessage = error instanceof Error ? error.message : 'Login failed. Please try again.';
@@ -29,6 +48,13 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode }) => {
       setIsLoading(false);
     }
   };
+
+  // Clear error when user starts typing
+  useEffect(() => {
+    if (error && (email || password)) {
+      setError('');
+    }
+  }, [email, password, error]);
 
   return (
     <div className="max-w-md mx-auto bg-white dark:bg-stone-800 rounded-2xl shadow-xl p-8">
@@ -93,9 +119,16 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggleMode }) => {
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200"
+          className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2"
         >
-          {isLoading ? 'Signing In...' : 'Sign In'}
+          {isLoading ? (
+            <>
+              <Loader2 className="h-5 w-5 animate-spin" />
+              <span>Signing In...</span>
+            </>
+          ) : (
+            'Sign In'
+          )}
         </button>
       </form>
 
